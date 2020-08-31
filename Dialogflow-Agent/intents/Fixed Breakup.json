@@ -1,0 +1,64 @@
+{
+  "id": "58f2a6c7-0d23-4e3f-a7c8-b25fbc9e4dec",
+  "parentId": "19643da3-4b11-4972-8d79-9dc6e999e958",
+  "rootParentId": "dd40bc00-48b6-4ce8-9792-1c6346611880",
+  "name": "Fixed Breakup",
+  "auto": true,
+  "contexts": [
+    "Experience-custom-custom-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-yes.Affirmation-Name-yes.Affirrmation-Time-custom.Experience-custom.Experience-custom-custom.Experience-custom-custom-custom",
+      "affectedContexts": [
+        {
+          "name": "FixedBreakup-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "52de5bfe-42d7-4ab4-9b81-cac52ae7c9e2",
+          "name": "unit-currency",
+          "required": true,
+          "dataType": "@sys.unit-currency",
+          "value": "$unit-currency",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Sorry! I didn\u0027t get that! What is your expected fixed breakup?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ahh Got it! What is your current negotiable notice period?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

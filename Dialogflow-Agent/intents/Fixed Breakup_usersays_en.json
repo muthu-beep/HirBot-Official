@@ -1,0 +1,44 @@
+[
+  {
+    "id": "0e3d670f-831c-401a-836f-23859ce17124",
+    "data": [
+      {
+        "text": "I want ",
+        "userDefined": false
+      },
+      {
+        "text": "10000 rupees",
+        "meta": "@sys.unit-currency",
+        "alias": "unit-currency",
+        "userDefined": false
+      },
+      {
+        "text": " as my fixed breakup",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bb9c46cf-ee1e-4088-8c86-dd87deb0cc7e",
+    "data": [
+      {
+        "text": "My expected fixed breakup is ",
+        "userDefined": false
+      },
+      {
+        "text": "50000 dollars",
+        "meta": "@sys.unit-currency",
+        "alias": "unit-currency",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

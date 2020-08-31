@@ -1,0 +1,54 @@
+[
+  {
+    "id": "43a28399-eca8-491d-a928-5197889a7e3b",
+    "data": [
+      {
+        "text": "My current expertise is in",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0dc18c11-e7b0-4e09-b539-f8da918f3325",
+    "data": [
+      {
+        "text": "My recent developments are in R programming",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e3423806-1679-46f7-8f8d-f4ba781b0006",
+    "data": [
+      {
+        "text": "I work with python and other programming languages",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d73cbe83-d234-40d0-9a49-404c1ff3418f",
+    "data": [
+      {
+        "text": "I usually build swimming pools",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

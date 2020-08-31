@@ -1,0 +1,40 @@
+{
+  "id": "bb78df4d-9e42-4aef-bc1f-1cb2b8cf5d76",
+  "parentId": "dd40bc00-48b6-4ce8-9792-1c6346611880",
+  "rootParentId": "dd40bc00-48b6-4ce8-9792-1c6346611880",
+  "name": "Negative-Name",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Oh I\u0027m Sorry!"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

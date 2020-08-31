@@ -1,0 +1,64 @@
+{
+  "id": "c6828ece-7571-467b-9e83-da9748e05577",
+  "parentId": "6dd63b49-f65c-455c-8ba2-bd85afd116bf",
+  "rootParentId": "dd40bc00-48b6-4ce8-9792-1c6346611880",
+  "name": "Affirrmation - Time",
+  "auto": true,
+  "contexts": [
+    "Affirmation-Name-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-yes.Affirmation-Name-yes",
+      "affectedContexts": [
+        {
+          "name": "Affirrmation-Time-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "8588eecf-b993-4d7b-b8a4-d23729174fe7",
+          "name": "any",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$any",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Is this a good time?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Great! Let\u0027s Start with something easy! What is your complete experience? Your response will be recorded for the employers to interview. Please start now!"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

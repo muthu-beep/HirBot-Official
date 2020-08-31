@@ -1,0 +1,53 @@
+[
+  {
+    "id": "3100f832-c59f-4962-bb22-c5e48533d7fc",
+    "data": [
+      {
+        "text": "My yearly salary is 100500 euros",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "575e1bd3-33fb-4d10-9895-3f6e542164be",
+    "data": [
+      {
+        "text": "I earn a good ",
+        "userDefined": false
+      },
+      {
+        "text": "100,000 rupees",
+        "meta": "@sys.unit-currency",
+        "alias": "unit-currency",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "60190527-6158-4a81-a5ec-c19256287ea4",
+    "data": [
+      {
+        "text": "My current CTC is ",
+        "userDefined": false
+      },
+      {
+        "text": "50000 dollars",
+        "meta": "@sys.unit-currency",
+        "alias": "unit-currency",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

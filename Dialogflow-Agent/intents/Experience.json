@@ -1,0 +1,44 @@
+{
+  "id": "ed6508de-83e3-4d58-852d-3f5c643dc54e",
+  "parentId": "c6828ece-7571-467b-9e83-da9748e05577",
+  "rootParentId": "dd40bc00-48b6-4ce8-9792-1c6346611880",
+  "name": "Experience",
+  "auto": true,
+  "contexts": [
+    "Affirrmation-Time-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-yes.Affirmation-Name-yes.Affirrmation-Time-custom",
+      "affectedContexts": [
+        {
+          "name": "Experience-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Nice! That\u0027s great! What is your current CTC?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

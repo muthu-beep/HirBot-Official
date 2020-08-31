@@ -1,0 +1,64 @@
+{
+  "id": "a6abe4d5-4e91-4ec0-a979-47fae12fe6ff",
+  "parentId": "ed6508de-83e3-4d58-852d-3f5c643dc54e",
+  "rootParentId": "dd40bc00-48b6-4ce8-9792-1c6346611880",
+  "name": "Current CTC",
+  "auto": true,
+  "contexts": [
+    "Experience-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-yes.Affirmation-Name-yes.Affirrmation-Time-custom.Experience-custom",
+      "affectedContexts": [
+        {
+          "name": "Experience-custom-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "b1d0b613-702f-4255-80b6-818e8846f3f3",
+          "name": "unit-currency",
+          "required": true,
+          "dataType": "@sys.unit-currency",
+          "value": "$unit-currency",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is your current CTC? CTC stands for Cost to company"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Oh! Noted. What is your expected percentage increment to your current CTC?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

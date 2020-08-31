@@ -1,0 +1,57 @@
+[
+  {
+    "id": "981e6979-2aef-49c7-8cc3-39b530b47605",
+    "data": [
+      {
+        "text": "I have no notice period",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1a975ff6-a854-4cba-9caf-4b3b08c3cf1e",
+    "data": [
+      {
+        "text": "I have to serve another ",
+        "userDefined": false
+      },
+      {
+        "text": "20 days",
+        "meta": "@sys.duration",
+        "alias": "duration",
+        "userDefined": false
+      },
+      {
+        "text": " notice in my old company",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b36a94a3-ba7e-42f4-91e2-7b0561893c5e",
+    "data": [
+      {
+        "text": "I have a notice period of ",
+        "userDefined": false
+      },
+      {
+        "text": "15 days",
+        "meta": "@sys.duration",
+        "alias": "duration",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

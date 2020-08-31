@@ -1,0 +1,59 @@
+[
+  {
+    "id": "5f33539f-d760-4349-bc5c-b416b016cebe",
+    "data": [
+      {
+        "text": "I currently work in ",
+        "userDefined": false
+      },
+      {
+        "text": "Surat",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bfd594c6-e488-4642-8c81-5ad57c15122c",
+    "data": [
+      {
+        "text": "I am located in ",
+        "userDefined": false
+      },
+      {
+        "text": "Mumbai",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3ba616f3-4b5c-4375-b9d4-6a982eb8c3a2",
+    "data": [
+      {
+        "text": "I live in ",
+        "userDefined": false
+      },
+      {
+        "text": "Bangalore",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "id": "6c440d5b-4432-44c7-92be-311661056b2c",
+    "data": [
+      {
+        "text": "I\u0027m willing to improve my salary by ",
+        "userDefined": false
+      },
+      {
+        "text": "29%",
+        "meta": "@sys.percentage",
+        "alias": "percentage",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d35dd4d4-b15b-4cc9-b8fd-e5d45a6d5b4f",
+    "data": [
+      {
+        "text": "I want a ",
+        "userDefined": false
+      },
+      {
+        "text": "20%",
+        "meta": "@sys.percentage",
+        "alias": "percentage",
+        "userDefined": false
+      },
+      {
+        "text": " hike",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "77c21c98-3db8-4350-a590-662b7483b96c",
+    "data": [
+      {
+        "text": "I expect a ",
+        "userDefined": false
+      },
+      {
+        "text": "15%",
+        "meta": "@sys.percentage",
+        "alias": "percentage",
+        "userDefined": false
+      },
+      {
+        "text": " increment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

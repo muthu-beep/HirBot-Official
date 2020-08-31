@@ -1,0 +1,64 @@
+{
+  "id": "19643da3-4b11-4972-8d79-9dc6e999e958",
+  "parentId": "a6abe4d5-4e91-4ec0-a979-47fae12fe6ff",
+  "rootParentId": "dd40bc00-48b6-4ce8-9792-1c6346611880",
+  "name": "Expected CTC",
+  "auto": true,
+  "contexts": [
+    "Experience-custom-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-yes.Affirmation-Name-yes.Affirrmation-Time-custom.Experience-custom.Experience-custom-custom",
+      "affectedContexts": [
+        {
+          "name": "Experience-custom-custom-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "e968efc6-0add-490a-a109-9882e89d0424",
+          "name": "percentage",
+          "required": true,
+          "dataType": "@sys.percentage",
+          "value": "$percentage",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Sorry! I didn\u0027t get that! What is your expected in percentage?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Got it! What is your expected fixed breakup?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

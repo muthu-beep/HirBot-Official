@@ -1,0 +1,39 @@
+{
+  "id": "56526472-01a9-4176-b019-9516938dbfab",
+  "parentId": "25cebbcd-d5e3-4941-ac2f-1b775a93bcf7",
+  "rootParentId": "dd40bc00-48b6-4ce8-9792-1c6346611880",
+  "name": "Extra Question",
+  "auto": true,
+  "contexts": [
+    "LivingLocation-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-yes.Affirmation-Name-yes.Affirrmation-Time-custom.Experience-custom.Experience-custom-custom.Experience-custom-custom-custom.FixedBreakup-custom.FixedBreakup-custom-custom.LivingLocation-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thanks a lot! That will be all for now. If you get Shortlisted our team will be in touch. Bye!"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,44 @@
+{
+  "id": "403aceb4-d89f-489d-8cc4-36719a538e1f",
+  "parentId": "6dd63b49-f65c-455c-8ba2-bd85afd116bf",
+  "rootParentId": "dd40bc00-48b6-4ce8-9792-1c6346611880",
+  "name": "Negative - Name",
+  "auto": true,
+  "contexts": [
+    "Affirmation-Name-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-yes.Affirmation-Name-no",
+      "affectedContexts": [
+        {
+          "name": "Negative-Name-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Oh! When would a good time be?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

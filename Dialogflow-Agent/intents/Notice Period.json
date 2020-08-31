@@ -1,0 +1,64 @@
+{
+  "id": "fa747d9e-e1e1-4774-ba8b-019161914a76",
+  "parentId": "58f2a6c7-0d23-4e3f-a7c8-b25fbc9e4dec",
+  "rootParentId": "dd40bc00-48b6-4ce8-9792-1c6346611880",
+  "name": "Notice Period",
+  "auto": true,
+  "contexts": [
+    "FixedBreakup-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-yes.Affirmation-Name-yes.Affirrmation-Time-custom.Experience-custom.Experience-custom-custom.Experience-custom-custom-custom.FixedBreakup-custom",
+      "affectedContexts": [
+        {
+          "name": "FixedBreakup-custom-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "570c070e-09ab-43e0-890d-3b07227abb23",
+          "name": "duration",
+          "required": true,
+          "dataType": "@sys.duration",
+          "value": "$duration",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Sorry! I didn\u0027t get that! What is your notice period?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Good Luck with the $duration! Where do you currently live?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
